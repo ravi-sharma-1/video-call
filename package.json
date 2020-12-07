@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "peerjs --port 9000 --key peerjs --path ./video-call/"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
