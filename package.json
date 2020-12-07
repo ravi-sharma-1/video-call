@@ -19,7 +19,8 @@
   "homepage": "https://github.com/ravi-sharma-1/video-call#readme",
   "devDependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express":"*",
+    "body-parser":"*",
     "http": "0.0.1-security",
     "peer": "^0.6.1"
   },
