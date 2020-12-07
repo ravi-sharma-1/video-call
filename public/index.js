@@ -10,7 +10,7 @@ remoteVideo.onplaying = () => { remoteVideo.style.opacity = 1 }
 let peer
 function init(userId) {
     peer = new Peer(userId, {
-        host: 'app.digimarketindia.com',
+        host: 'localhost',
         port: 9000,
         path: '/video-call'
     })
