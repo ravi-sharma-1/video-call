@@ -1,0 +1,23 @@
+{
+  "name": "video-call",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"peerjs --port 9000 --key peerjs --path ./video-call/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravi-sharma-1/video-call.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravi-sharma-1/video-call/issues"
+  },
+  "homepage": "https://github.com/ravi-sharma-1/video-call#readme",
+  "devDependencies": {
+    "peer": "^0.6.1"
+  }
+}
